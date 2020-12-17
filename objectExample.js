@@ -23,24 +23,24 @@ let car = {
 
 let key = "colour";
 
-console.log(car.colour);
-/// will access the colour key of the object and return its value
-console.log(car["colour"]);
-// will also access the colour, different syntax
-console.log(car[key]);
-// will also access the colour, using a variable in place of the keyname
-console.log(car["yearsMade"][1]);
-// this will access the yearsmade array, and bring back its second item (index 1)
-console.log(car.topSpeed);
-car.topSpeed = 220;
-console.log(car.topSpeed);
-// Updating the value of an element
+// console.log(car.colour);
+// /// will access the colour key of the object and return its value
+// console.log(car["colour"]);
+// // will also access the colour, different syntax
+// console.log(car[key]);
+// // will also access the colour, using a variable in place of the keyname
+// console.log(car["yearsMade"][1]);
+// // this will access the yearsmade array, and bring back its second item (index 1)
+// console.log(car.topSpeed);
+// car.topSpeed = 220;
+// console.log(car.topSpeed);
+// // Updating the value of an element
 car.numberOfDoors = 4;
 //creates a new key value pair on the object called numberOfDoors
 console.log(car.numberOfDoors);
 
-console.log(car.needsFuel);
-car.fillUp();
-console.log(car.needsFuel);
+// console.log(car.needsFuel);
+// car.fillUp();
+// console.log(car.needsFuel);
 
-car.printKeys()
+// car.printKeys()
